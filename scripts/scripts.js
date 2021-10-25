@@ -29,7 +29,7 @@ $('#botonMenu').click(function(){
     $('#menu').css('left', '0');
 })
 $('#closeMenu').click(function(){
-    if ($(window).width() > 500){
+    if ($(window).width() > 600){
     $('#botonMenu').css('display', 'flex');
     $('#menu').css('left', '-50%');
     } else {
